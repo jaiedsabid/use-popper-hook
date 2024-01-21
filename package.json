@@ -1,0 +1,22 @@
+{
+  "name": "use-popper-hook",
+  "version": "1.0.0",
+  "description": "A simple reusable popper.js hook to create dynamic dropdown menus, popovers and tooltips.",
+  "main": "./index.js",
+  "type": "module",
+  "author": "Jaied Al Sabid",
+  "license": "MIT",
+  "repository": "jaiedsabid/use-popper-hook",
+  "exports": {
+    "default": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
